@@ -1,0 +1,32 @@
+#!/bin/sh -eu
+
+# convert eps+tex into full eps
+
+name=${1%.tex}
+out=${2:-full_${name}.eps}
+
+# create a temporary TEX wrapper for the image
+cat > tmp_fig.tex << EOF
+\documentclass[a4paper]{article}
+\usepackage{amssymb}
+\usepackage{euscript}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{epsfig}
+\usepackage{fullpage}
+\pagestyle{empty}
+
+\begin{document}
+\begin{figure}[p]\input{$name.tex}\end{figure}%
+\end{document}
+EOF
+
+# run latex+dvips to build the full PDF image
+latex tmp_fig
+dvips -E tmp_fig -o tmp_fig.pdf
+
+# convert to eps
+eps2eps tmp_fig.pdf $out
+
+# remove temporary files
+rm -f tmp_fig.*

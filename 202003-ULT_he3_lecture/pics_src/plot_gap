@@ -1,0 +1,17 @@
+#!/usr/bin/gnuplot
+
+set nokey
+set terminal x11
+unset xtics
+unset ytics
+unset rtics
+unset border
+set polar
+
+plot 1, 1+0.2, 1+0.2*abs(cos(t))
+
+pause -1
+
+set terminal fig size 4,4
+set output "tmp5.fig"
+replot

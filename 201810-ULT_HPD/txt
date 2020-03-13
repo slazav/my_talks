@@ -1,0 +1,220 @@
+I will talk about Hom.Pr.Dom. in He3-B, introductions, 
+our plans, our current work which is unfinished unfortunately.
+
+1. He3
+
+First - a short introduction about he3.
+He3 is a Fermi liquid which does not freeze down to abs. zero temp.
+At 1 mk a superfluid transition occures with a Cooper paring of atoms.
+Unlike usual superconductors pairs in He3 have
+  spin 1 and orbital momentum 1.
+Order parameter is a 3x3 complex matrix wich includes both spin and
+orbital degrees of freedom.
+
+Symmetry of this matrix can break in different ways,
+There are several superfluid phases in 3He, here is the phase dagram
+for small magnetic field. We are working with the B-phase.
+
+Order parameter of the B-phase has this form: if contains a gap,
+a phase factor and a rotation matrix wich determins mutual orientation
+of spin and orbital spaces.
+
+Superfluid state is degenerate with respect to motion of the phase and
+motion of the R matrix. It is four degrees on freedom (you can
+parametrize the matrix by three Euler angles, or by axis of rotation and
+angle of rotation). And in total we have 18 degrees of freedom,
+because it is a 3x3 complex matrix
+
+This means that there are 18 oscillation modes of the order parameter,
+four of them are gapless N-G modes. Others are Higgs modes with the gap
+of the order of Delta.
+
+One of this NG modes is motion of phase and it is sound.
+Motion of R is spin waves and I will talk about it.
+
+======================================================================
+2. Texture and spin waves
+
+Motion of the R matrix and Spin is described by Leggett equations.
+There is spin, and in magnetic field spin motion is
+a normal Larmor precession, affected by this term, some torque
+wich comes from a few different interaction energies:
+gradient energy, spin-orbit interaction in cooper pairs, interaction
+with walls.
+Here I wrote OmegaB, so-called Leggett frequency, an important parameter
+which shous strength of sp-orb.interaction
+
+Equilibrium distribution or R is texture, and motion of R is
+spin waves. Here I am writing r as a function of rotation axis n and
+rotation angle theta
+
+For example if we put He3-B in a cylindrical
+container at large enough magnetic field we will have a
+so-called flare-out texture.
+Here arrows show direction of rotation axis n, and rotation angle th
+stays at 104 degrees. It corresponds to the minimum of sp-orb int. en.
+it is called Leggett angle, an it appears in many places in this theory.
+
+If in NMR experiment we observe small motion of spin near this equilibrium,
+for examle here, where n||H, and if Larmor frequency gamma H is
+larger then Legg freq, we see three modes:
+optical and ac magn are usual for normal larmor precession,
+long magnons are unique for He3-B, they have gap OmegaB
+they correspond to motion of spin length or oscillation of theta angle.
+
+But these eq are non-linear and if we start increasing NMR pumping
+we can switch to some other state. And very interesting state is Hom.Pr.Dom.
+
+======================================================================
+3. HPD
+
+Legg Eq. in magn.field have a solution which is drawn here:
+In a frame rotating with some angular velocity omega
+spin is deflected slightly above 104 degrees (it depends on omega),
+and n stays like this.
+
+An important feature of this state is that it is stable in non-uniform
+conditions. If some gradient if this precession appears, it creates
+spin currents which transfer spin and makes precession uniform.
+HPD behaves like a liquid which flows into a region of small magnetic field.
+
+For example to create HPD in CW NMR one can have magn field with a gradient,
+apply large enough RF-pumpling and then change the frequency in such a
+way that the Larmor cond goes through the cell.
+Then HPD appeares in the low-field end and start filling the cell
+like this.
+In in the NMR spectrometer we see this cureves: 
+component of magn parallel to the pump field grows linearly when
+HPD is filling the cell, and then stays constant. Transverse magn.
+is a dissipation, it is larger here because some dissipation happens in
+the domain wall. Then dissipation grows with the freq. shift and when it is
+large enough the HPD breaks.
+
+HPD is a good experimental object, it is uniform and coherent, and
+NMR signals are large. Many experiments have been done with HPD.
+For example, in Moscow in 1987 they used two cells with two HPDs,
+connected with a narrow channel.
+
+Thety detune frequencie of both HPDs and observed spin current
+flowing throug the channel, and phase slips, and analog of Jos.eff.
+
+In our current project we want to to the same experiment but with a
+grathene membrane in the middle of the channel. to see how the superfluidity
+is coupled across the membrane, how spin currents can flow.
+There is also a theoretical idea about strange fermionic states in this
+2D system: graphee immersed in superfluid.
+
+But this experiment is complicated, and it is not clear will we have any results,
+so I decided to make a simple preliminary measurement with a single cell.
+When cryostat was more or less ready and NMR spectrometer was ready.
+
+THe plan was to see small oscillations on top of the HPD state. We did this
+in Moscow in 2004 very briefly and I think that something interesting can
+be still found in these area.
+
+
+======================================================================
+5. Experimental cell
+
+The cell is drawn here: It is a stycast cylinder, connected by a narrow channel to
+sinter volume of the nuclear stage. There are two pairs of RF coils around the cell,
+one for applying excitation, anather for measurements.
+There is magnet system, we can apply uniform field, gradient field, quadratic field.
+Everything is inside a niobium shield.
+
+We use a dry crystat with nuclear demagnetization. It is not so good and now we are
+rebuilding it, but for this wark we managed to do a few short measurements.
+And we found something interesting.
+
+======================================================================
+6. Measurements
+
+What we measured: here is the cell, and two coils ...
+
+We grow HPD in a usual way, by sweeping magn.field. with some high RF excitation,
+but at the same time we are recordind the signal sing the oscilloscope and see what is
+happenng not only on the pumping frequency but on other frequencies also.
+
+Here is sliding fft plot. Horiz.axs is time, here it is freq., dashed line shows how
+field is changing
+
+...
+
+======================================================================
+7. Results
+
+i tryid to classify this modes and I found some interesting dependencied:
+In the low freq regime square of the freq. is proportional to freq.shift and
+to excittion amplitude (RF-field). Here I plot f^2*exc.volt and  have two lines
+for different exc. voltages.
+
+In high-temp mode I have f^2 prop to freq.shift mult by excitation amp.
+Here I plot f^2*Uexc. and I have a number of strate lines.
+
+You can see that this lines go to zero at different freq.shifts. And if I change
+field gradient, lines start moving. I show it by these red arrows.
+This probably means that these oscillations are localized in different parts of the cell.
+
+We still are not sure what are these modes. We had a few ideas, no
+we think that we observe a so-called theta-solitons in HPD.
+
+======================================================================
+7. Solitons
+
+I did not mention that in such a complicated order parameter one can
+have different topological defects. If we have only the superfluid phase,
+and it changes by 2pi around some line, we have a vortex.
+If we add the rotation matrix, other structures are possible.
+Theta-soliton is a boundary, where theta changes by 2pi.
+
+These solitons have been observed in ROTA as a part of so-called spin-mass
+vortex (where end of this soliton is sitting on a phase vortex).
+
+To understand the structure of the soliton in HPD it is good to use
+n*th cordinates. Then the rotation matrix can be associated with 
+a point inside a sphere with radius 180 d. Opposite points of the
+sphere correspond to the same state (because rotation by pi and -pi around
+the sam axis are equivalent).
+
+There is a sphere with radius 104 degrees which correspond to minimum of
+dipolar energy. Phis point is HPD and these tw are equilibrium state
+without any precession.
+
+Then we have a path in this sphere where we start
+from HPD, go to non-precessing state, cross the boundary, and return back.
+This path can be also stable.
+
+As a function of coordinate it looks like this: n and S go to vertical orientation,
+then theta changes in this area, then everything goes back.
+Size of the soliton core, where theta is changing is small, it is called Dipolar length
+and it is about 10 microns. But these tails can be large, their size is proportional
+to square root of freq.shift.
+We think that we observe oscllations of these objects.
+
+Now I'm doing numerical simulations of Leggett equations in 1D case in rotating frame.
+I still do not have good numerical results, but I can see at least something.
+
+======================================================================
+8. Numerical simulations
+
+Here you can see a grouth of a usual HPD in CW NMR. These color plots
+show orientation of n and S vectors. White and black are two vertical directions and
+color is orientation in x-y plane. Horisontal axis is time, and this is the cell length.
+I sweep magnetic field at some RF-pumping and I see how HPD is filling the cell.
+Components of the total spin go as it should be.
+
+I found that if I sweep field too fast the HPD boundary can be unstable and create a
+theta soliton. Here it is 10 times faster sweep, and a soliton with opposite
+orientation of n is created (it is the same as jump in theta).
+Here HPD is destroyed, by I can create solitons artificially.
+
+Here I plot only magnetization, and you can see these soliton tails. I stabilize the
+sliton and make a jump in the magn.field, and I see oscillations.
+There is higher frequency which comes from HPD bulk, and lower one which is
+localized in the soliton. 
+
+Unfortunately, my calculation is not accurate. I use a fixed grid. size of
+the soliton core is much smaller then the grid and it is not calculated properly.
+It is just a jump in theta and it is unstable in many cases and it is hard to get anything.
+But I'm working on it now.
+

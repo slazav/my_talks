@@ -1,0 +1,28 @@
+#FIG 3.2  Produced by xfig version 3.2.5b
+Landscape
+Center
+Metric
+A4      
+100.00
+Single
+-2
+1200 2
+6 585 3555 12600 4545
+4 0 0 52 -1 4 26 0.0000 3 435 7665 1035 4425 size as expected for spin diffusion mechanism.\001
+4 0 0 52 -1 4 26 0.0000 3 435 12015 585 3900 3. Relaxation rate of magnon condensate depends on temperate and trap\001
+-6
+6 585 1170 11880 2160
+4 0 0 52 -1 4 26 0.0000 3 435 10770 990 2055 can exists in the trap made by texture and external magnetic field.\001
+4 0 0 52 -1 4 26 0.0000 3 435 11490 585 1530 1. Long-living Bose condensate of magnon quasiparticles in $^3$He-B\001
+-6
+2 1 0 1 7 7 50 -1 -1 0.000 0 0 7 0 0 2
+	 0 9405 13365 9405
+2 5 0 1 0 -1 500 -1 20 0.000 0 0 -1 0 0 5
+	0 other/blue_grad.jpg
+	 0 0 13365 0 13365 3132 0 3132 0 0
+4 1 9 50 -1 4 28 0.0000 3 465 2190 6750 630 Conclusions\001
+4 0 0 52 -1 4 26 0.0000 3 435 11250 585 2715 2. CW NMR spectrum of magnon condensate states can be used for\001
+4 0 0 52 -1 4 26 0.0000 3 435 5955 990 3240 probing the order parameter texture.\001
+4 0 0 52 -1 4 26 0.0000 3 435 12240 585 5145 4. In rotation there is a contribution to relaxation, proportional to the density\001
+4 0 0 52 -1 4 26 0.0000 3 435 9900 990 5670 of vortices. It is probably connected to the fermions bound to\001
+4 0 0 52 -1 4 26 0.0000 3 435 10140 990 6195 vortex core, coupled to spin precession via motion of vortices.\001

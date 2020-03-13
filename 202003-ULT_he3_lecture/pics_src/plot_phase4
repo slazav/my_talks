@@ -1,0 +1,42 @@
+#!/usr/bin/gnuplot
+
+i0=12.2440   # [cgs]
+L0=59.62     # [J/mol]
+R=8.31662    #
+rHg=13.5951  # [g/cm] Hg density
+g=980.665    # [cm/s^2]
+
+# The 1958 He4 scale of Temperatures
+
+Pn = 760    # [mmHg]
+Tn = 4.2150 # [K]
+Pl = 37.80  # [mmHg]
+Tl = 2.1720 # [K]
+Pc = 1718   # [mmHg]
+Tc = 5.1994 # [K]
+k = g*rHg/10000/10 / 1e5 # umHg to bar
+
+print k*760000
+
+# John Satterly, 1936
+# below 2.19K
+pvap1(T) = 10**(2.035 - 3.859/T + 0.922*log(T)/log(10))
+# above 2.19K
+pvap2(T) = 10**(1.217 - 3.024/T + 2.208*log(T)/log(10))
+pvap(T) = (T<2.19 ? pvap1(T):pvap2(T)) * k*10000
+
+
+set nokey
+set log x
+set grid
+
+plot [0.0001:10] [:40]\
+ "He4scale"  using 1:($2*k) with lines,\
+ "He4lambda" using 1:($2*1.01325) with lines,\
+ "He4melt" using 1:($2*1.01325) with lines,\
+
+pause -1
+
+set terminal fig size 6,6
+set output "tmp2.fig"
+replot

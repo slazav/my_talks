@@ -1,0 +1,17 @@
+Light Higgs channel of magnon BEC decay in 3He-B
+
+Symmetry breaking in 3He-B  has many common features with the
+symmetry breaking in particle physics. There are 18 collective modes of
+the order parameter in 3He-B, of which  14 are the high-energy
+amplitude modes -- analogs of the heavy Higgs bosons, and 4 are the
+low-energy Nambu-Goldstone (NG) bosons (sound + 3 spin wave
+modes). One of the spin wave modes acquires small mass due to a tiny
+spin-orbit interaction, and becomes equivalent to the light Higgs boson
+in the composite Higgs scenarios.  In applied magnetic field, the other
+two spin wave modes split into the gapped mode (magnon, or optical
+magnon) and the gapless NG mode with quadratic dispersion (acoustic
+magnon). Here we report the experimental observation of resonant
+parametric decay of a Bose-Einstein condensate of optical magnons into
+pairs of light Higgs bosons and into pairs of acoustic magnons. In
+addition we can see a direct transition between optical and acoustic
+magnons.

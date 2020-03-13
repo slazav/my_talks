@@ -1,0 +1,38 @@
+#FIG 3.2  Produced by xfig version 3.2.6-beta
+Landscape
+Center
+Metric
+A4      
+100.00
+Single
+-2
+1200 2
+0 32 #525050
+6 0 0 13365 9405
+2 1 0 1 7 7 50 -1 -1 0.000 0 0 7 0 0 2
+	 0 9405 13365 9405
+2 5 0 1 0 -1 500 -1 20 0.000 0 0 -1 0 0 5
+	0 other/blue_grad.jpg
+	 0 0 13365 0 13365 3132 0 3132 0 0
+-6
+2 1 0 1 9 11 50 -1 20 0.000 0 0 -1 0 0 2
+	 450 1440 8955 1440
+2 5 0 1 0 -1 50 -1 -1 0.000 0 0 -1 0 0 5
+	0 other/device_ex1.png
+	 3825 5625 10897 5625 10897 7953 3825 7953 3825 5625
+2 4 0 1 0 11 60 -1 -1 0.000 0 0 7 0 0 5
+	 6570 3735 6570 2025 450 2025 450 3735 6570 3735
+4 0 9 50 -1 4 28 0.0000 3 465 2430 900 495 Device library\001
+4 0 9 50 -1 4 28 0.0000 3 465 6285 945 1035 https://github.com/slazav/tcl-device\001
+4 0 0 50 -1 4 22 0.0000 3 360 9450 495 4455 Main idea: programs do not care about how devices are connected.\001
+4 0 10 50 -1 4 20 0.0000 3 330 5880 585 3120 - used in ROTA (some programs can be used)\001
+4 0 10 50 -1 4 20 0.0000 3 330 4980 585 3510 -good for interaction between programs\001
+4 0 0 50 -1 4 22 0.0000 3 360 2070 585 2340 TCL language:\001
+4 0 10 50 -1 4 20 0.0000 3 330 4440 585 2730 - easy to make graphical interfaces\001
+4 0 0 50 -1 4 22 0.0000 3 360 9945 495 5010 Program can just open a device, send a command and get an answer. \001
+4 0 0 50 -1 4 22 0.0000 3 360 2130 540 6300 Other features:\001
+4 0 10 50 -1 4 20 0.0000 3 330 1920 540 6720 - error handling\001
+4 0 10 50 -1 4 20 0.0000 3 330 1215 540 7140 - IO locks\001
+4 0 10 50 -1 4 20 0.0000 3 330 1470 540 7560 - user locks\001
+4 0 10 50 -1 4 20 0.0000 3 330 1260 540 7980 - timeouts\001
+4 0 10 50 -1 4 20 0.0000 3 330 1095 540 8400 - logging\001

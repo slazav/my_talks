@@ -1,0 +1,18 @@
+#!/usr/bin/perl
+
+$w=20;
+$h=10;
+$m0 = 1.5;
+$phi0 = 42/180*3.14159;
+
+for (my $y0; $y<$h; $y++){
+  for (my $x=0; $x<$w; $x++){
+    $phi = rand(2*3.14159);
+
+    $mx = $m0*cos($phy0) + cos($phi);
+    $my = $m0*sin($phy0) + sin($phi);
+    $phi = 180/3.14159*atan2($my, $mx);
+
+    printf("%d %d %f\n", $x, $y, $phi);
+  }
+}

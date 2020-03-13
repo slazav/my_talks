@@ -1,0 +1,161 @@
+Hello, I'll tell about our present work in Aalto University. We are
+working with rotating superfluid 3He at very low temperatures. This is
+our rotating cryostat. In rotation we are studying vortices, their
+dynamics and structure. I'll tell about magnon condensate - an
+interesting magnetic state which we are using as an instrument for
+studying He3 properties.
+
+First I recall some facts about superfluid 3He. It is an isotope of
+helium and it stays liquid down to the absolute zero temperature. Unlike
+4He it is a Fermi liquid, and superfluidity in it occurs due to cooper
+pairing at about 1 mK temperature.
+
+Cooper pairs in 3He have non-zero spin and non-zero orbital moment. This
+is the reason for rather complicated order parameter and many
+interesting properties.
+
+3He is a pure substance. No other substance can be solved in it at such
+temperatures. It is very convenient for experiments. In most cases
+experimental results are in a very good agreement with the theory.
+
+===
+
+Here is phase diagram of 3He. There is a solid phase and two superfluid
+phases, A and B. These phases have different type of order parameter. We
+are interested in the B-phase at low temperatures.
+
+===
+
+Order parameter of B phase is written here. It consists of energy gap,
+which depends on pressure and temperature, phase factor, and a matrix 3
+by 3 which is a rotation matrix. This matrix shows relationship between
+spin and orbital spaces of cooper pairs. We can describe rotation matrix
+by unity vector n, the axis of rotation and the angle of rotation theta.
+
+Angle theta is fixed by spin-orbit interaction and its value is close to
+104 degrees. Vector n is set by magnetic field and cell walls, forming
+some texture. This is distribution of n for a cylindrical cell in a
+magnetic field.
+
+===
+
+An important techinque for studying He3 is Nuclear Magnetic
+Resonance. We apply some constant magnetic field and excite oscillations
+of magnetization around its equilibrium position. In He3 magnetization
+precesses together with order parameter. Its motion is close to Larmor
+precession but there is some frequency shift which depends on the
+texture.
+
+In our cylindrical cell we have a minimum of precession frequency in
+the middle.
+
+Another important thing in He3-B is superfluid spin currents. These
+currents are caused by gradients of order parameter and transfer
+magnetization.
+
+Here we have gradients of order parameter because of inhomogeneous
+precession. As a result motion of magnetization is strongly affected by
+spin currents. A standing spin wave can appear in this geometry.
+A coherent state which is supported by spin currents and precesses at
+single frequency which depends on this profile.
+
+This complicated effect can be explained in terms of magnon
+quasiparticles. In this picture tipping angle and phase of magnetization
+corresponds to wave function of magnon and frequency corresponds to
+energy.
+
+So we have an energy potential for magnons with some energy levels in
+it. And standing spin waves correspond to Bose condensation of magnons
+in a specific level of this potential trap.
+
+===
+
+In our experiments 3d trap for magnons is formed  by order parameter
+texture in radial direction. And in axial direction we apply magnetic field
+with a minimum to produce a minimum of Larmor frequency.
+
+Our trap is close to harmonic one. Energy levels in a harmonic
+cylindrical trap are written here. There are three quantum numbers:
+radial, azimuthal and axial. But we can't see all these states on NMR
+signal because some of them have zero total magnetization. We can see
+only states with zero azimuthal number and even axial number.
+
+These energy levels are a good probe for a texture.
+In rotation we have polarized vortices, which go through the whole
+volume, modify the texture and shifts these level.
+We can also observe slow processes of vortex dynamics for example
+after spinning up of spinning down the cryostat.
+
+===
+
+How can we see magnon condensates? At continues wave NMR we can see
+all energy levels as a sharp maxima on the spectrum. There are groups
+of peaks which correspond to different radial numbers: 0,1,2.... Peaks
+inside each group correspond to different axial numbers: 0,2,4...
+The whole width corresponds to the depth of our trap.
+
+We also can observe these states (usually ground state) in a pulsed NMR.
+
+===
+
+Here is an example of free decay signal at low temperature.
+We excite magnon condensate by short pulse and then record a long
+decay signal. This is a result of sliding fft transformation of this
+signal.
+
+There is one important non-linear effect visible here: change of
+frequency. This happens because magnons modify the texture. If we
+pump more magnons to our trap, it becomes wider and frequency levels go
+down.
+
+In this talk I am speaking only about linear effects. We always
+have a good exponential decay of amplitude in the tail of signal. So we can
+measure its relaxation rate in various conditions.
+
+===
+
+We measured the relaxation as a function of temperature and rotation
+velocity.
+
+Temperature is measured with quartz fork resonator. Its resonant width
+shows density of normal component in He3 and drops exponentially with
+temperature. You can see that relaxation is also a linear function of
+normal component density.
+
+This temperature dependent part of relaxation looks like spin diffusion,
+and slopes of these lines are proportional to the size of magnon
+condensate, as it should be for spin diffusion.
+
+Another part is this zero temperature relaxation.
+In is proportional to rotation velocity or to the number or vortices.
+
+===
+
+We attribute this relaxation to the dissipation of energy in vortex
+cores.
+
+The model have been proposed by V and K in 1998. At low temperatures
+vortices in He3-B have non-symmetric core with large density of normal
+component. Quasiparticles bound to the core have rather interesting
+spectrum with small distances between levels.
+
+Vortex core can oscillate together with magnetization, and this motion
+can trigger transitions between bound states and dissipate energy.
+
+We have only two values of zero temperature relaxation for two different
+pressures and it is not enough to check this theory. But at least sign of
+effect is correct: dissipation grows with pressure.
+
+===
+
+One more interesting thing we are studying now is a frequency dependance
+of relaxation. We are limited by our resonant circuit with Q-value
+130 and can observe only few tens of kilohertz region.
+
+With rotation we found strange picture with peaks. This looks like
+a periodic structure which period depends only on pressure. It does not
+depends on temperature, rotation velocity, size of magnon condensate...
+
+Now we are trying to understand, can these peaks be connected to the
+spectrum of quasiparticles in vortex cores.
+

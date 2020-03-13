@@ -1,0 +1,157 @@
+Hello! Yesterday you already heard about magnon condensate in superfluid
+3He-B. Now I'm going to tell how we use it for studying vortex cores.
+
+===
+
+First I briefly recall some things about 3He. It is an isotope of helium
+and it stays liquid down to the absolute zero temperature. It is a Fermi
+liquid, and superfluidity in it occurs due to cooper pairing at about 1
+mK temperature.
+
+Cooper pairs have non-zero spin and non-zero orbital moment. There are
+two different superfluid phases in 3He. We are interested in the B phase
+In the B phase spins and orbital momentums of cooper pairs are not
+ordered, but there is an ordering in mutual orientation of spin and
+orbit space. There is a macroscopic quantity, order parameter, which is
+written here. It consists of energy gap, which depends on pressure and
+temperature, phase factor, and a matrix a rotation matrix. This matrix
+shows relationship between spin and orbital spaces of cooper pairs.
+Rotation matrix can be described by unity vector n, the axis of rotation
+and the angle of rotation theta.
+
+Angle theta is fixed by spin-orbit interaction and its value is close to
+104 degrees. Vector n is set by magnetic field and cell walls. Here is
+an example of distribution of vector n in a cylindrical cell parallel to 
+a magnetic field.
+
+===
+
+An important technique for studying He3 is a Nuclear Magnetic Resonance.
+Spin dynamics is rather complicated:
+Order parameter is involved in the motion of magnetization because of
+spin-orbit interaction; texture changes precession frequency; superfluid
+spin currents transfer magnetization.
+
+This dynamics can be described in terms of magnon quasiparticles, moving
+in the energy potential formed by texture and magnetic field. In this
+picture tipping angle and phase of magnetization correspond to magnon
+wave function, and precession frequency plays role of energy.
+
+In our experiments we have an energy trap for magnons w“ich is made by a
+texture in the radial radial direction and by external magnetic field
+with a minimum in the axial direction. This energy trap has discrete
+energy levels and we can see these levels in a CW NMR signal. You can
+see two sets of peaks wich correspond to two quantum numbers: radial and
+axial. This spectrum is a good tool for studying textures. For example,
+if we have vortices, this picture changes and we can measure effect of
+vortices on the texture.
+
+===
+
+If we pump magnons to our trap they form Bose condensate on the ground
+level. We can see this in a pulse NMR as a coherent long living signal
+with a certain frequency. Frequency changes because magnons modify
+texture. We can study relaxation rate of this signal.
+
+Here you can see temperature dependence of the relaxation. It is plotted
+as a function of resonance width of a quartz tuning fork which we are
+using as a thermometer. It measures 3He viscosity and drops exponentially
+with a temperature. You can see nice linear dependence and it can be
+explained by spin diffusion. Spin diffusion coefficient drops
+exponentially with temperature, and the slope of this line also depends
+on the size of the magnon condensate, on magnetization gradients in it.
+
+===
+
+Now I'm coming to the main part of my talk. We can rotate our cryostat
+with constant velocity and create vortices which go through the magnon
+condensate and change the relaxation.
+
+Here you can see the same plot, but for various rotation velocities.
+Change in slope can be explained by the geometrical change of the
+condensate. Vortices modify texture, potential for magnons becomes
+narrower, gradients of magnetization grow and relaxation increases.
+Using CW measurements we can check that slope is inversely proportional
+to the size of the magnon condensate.
+
+More interesting thing is this additional relaxation which does not
+depend on the temperature. This is the dissipation of energy in
+vortex cores.
+
+===
+
+Vortices in He3-B at low temperatures have non-axisymmetric cores. There
+if an energy which orients vortex in the order parameter texture. Here n
+is order parameter vector n, l is orbital anisotropy axis and b is the
+orientation of a vortex.
+
+In the magnon condensate magnetization and order parameter precess,
+and this causes a precession of the vortex. This motion transfers
+energy from magnon condensate to the normal component in the vortex
+core. This can be written as a friction term in the motion equation of
+the vortex.
+
+Relaxation of magnon condensate can be written in terms of these
+parameters. It is also proportional to the number of vortices, or
+rotation velocity of the cryostat. We can see this proportionality
+in the experiment.
+
+This model have been proved 20 years ago in experiments with
+homogeneously precessing domain - another coherent state in He3-B, which
+exists in higher temperatures.
+
+===
+
+The theory predicts how these coefficients depend on pressure and
+magnetic field. And we can compare these dependencies with the
+experiment.
+
+Relaxation should be proportional to one over H in forth power,
+and for pressure we have some combination of Fermi-liquid parameters
+You can see that agreement is raver good.
+
+
+===
+
+But this is not the only thing we can see in this experiments.
+
+Normal component in the vortex core is localized in the plane
+perpendicular to the vortex line. And we have a discrete spectrum as a
+function af angular momentum. (And continuous spectrum as a function of
+momentum along the vortex line). Distance between these branches is
+called minigap, and it should be about 100 kHz, much smaller then gap.
+
+At low temperatures lifetime of quasiparticles is long, and it can
+be possible to resolve these energy levels.
+
+We tried to study relaxation as a function of NMR frequency (or magnetic
+field) and we found periodic dissipation peaks existing only in the
+presence of vortices.
+
+We still do not know does these peaks correspond to resonant transitions
+between these energy states. Period of these peaks is much smaller
+then predicted minigap value. And pressure dependance of
+these period does not correspond to this formula.
+
+Now we are studying this effect in a wide range of NMR frequencies and
+temperatures, and we found many various things.
+
+===
+
+For example at higher temperature we see not only 1 kHz period,
+but also 2.6 kHz, and also some additional peak here. And this
+picture changes with temperature. If we plot relaxation in a
+few points as a function of temperature,
+
+===
+
+... we can see, that these peaks disappear
+at some temperature.
+
+This temperature strongly depends on NMR frequency. An important thing
+is that this dependance is not exponential. This can be an argument that
+this is an effect from normal Fermi-liquid in vortex cores, becouse all
+parameters in superfluid He3 changes exponentially with temperature.
+
+But still we have no explanation of these peaks, and we continue
+measurements.

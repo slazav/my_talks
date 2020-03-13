@@ -1,0 +1,38 @@
+#FIG 3.2  Produced by xfig version 3.2.6-beta
+Landscape
+Center
+Metric
+A4      
+100.00
+Single
+-2
+1200 2
+0 32 #525050
+6 0 0 13365 9405
+2 1 0 1 7 7 50 -1 -1 0.000 0 0 7 0 0 2
+	 0 9405 13365 9405
+2 5 0 1 0 -1 500 -1 20 0.000 0 0 -1 0 0 5
+	0 other/blue_grad.jpg
+	 0 0 13365 0 13365 3132 0 3132 0 0
+-6
+2 1 0 1 9 11 50 -1 20 0.000 0 0 -1 0 0 2
+	 450 1440 8955 1440
+2 5 0 1 0 -1 50 -1 -1 0.000 0 0 -1 0 0 5
+	0 other/devrole_ex1.png
+	 6165 6570 12851 6570 12851 9113 6165 9113 6165 6570
+4 0 9 50 -1 4 28 0.0000 3 465 3240 900 495 DeviceRole library\001
+4 0 0 50 -1 4 22 0.0000 3 360 4860 495 2625 about its model and command set.\001
+4 0 9 50 -1 4 28 0.0000 3 465 7275 945 1035 https://github.com/slazav/tcl-device\\_role\001
+4 0 0 50 -1 4 22 0.0000 3 360 11040 495 2205 Main idea: program can use a device in some simple role, without a knowladge\001
+4 0 0 50 -1 4 22 0.0000 3 360 11985 495 3285 Program can just open a device "as a voltage source", and run "set voltage" method. \001
+4 0 10 50 -1 4 18 0.0000 3 300 6900 765 5085 * Keysight N6700B frame with N6762A or N6762A modules\001
+4 0 10 50 -1 4 18 0.0000 3 300 5550 765 5445 * Korad/Velleman/Tenma 72-2550 power supply\001
+4 0 10 50 -1 4 18 0.0000 3 300 5550 765 6210 * Korad/Velleman/Tenma 72-2550 power supply\001
+4 0 10 50 -1 4 18 0.0000 3 300 3885 765 6570 * SR844 lock-in (auxilary outputs)\001
+4 0 10 50 -1 4 18 0.0000 3 300 4725 765 6930 * Keysight 33511B generator (1 channel)\001
+4 0 10 50 -1 4 18 0.0000 3 300 4845 765 7335 * Keysight 33510B generator (2 channels)\001
+4 0 0 50 -1 4 22 0.0000 3 360 5235 495 4140 Existing roles and supported devices:\001
+4 0 0 50 -1 4 20 0.0000 3 330 3075 585 7740 gauge -- a gauge device\001
+4 0 10 50 -1 4 18 0.0000 3 300 1800 765 8145 * SR844 lock-in\001
+4 0 0 50 -1 4 20 0.0000 3 330 10500 495 4650 power\\_supply -- a power supply with constant current and constant voltage modes\001
+4 0 0 50 -1 4 20 0.0000 3 330 5850 495 5850 voltage\\_supply -- a simple DC voltage source\001

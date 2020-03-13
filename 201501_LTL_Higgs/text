@@ -1,0 +1,283 @@
+==== title
+
+Hello! My talk is called "Light Higgs channel of
+magnon BEC decay in 3He-B".
+It is a popular topic now to classify collective modes
+in complicated systems with spontaneously broken symmetries.
+I will talk about such a classification for 3He-B,
+and also about our experiments where we see interaction between
+different modes.
+
+First I briefly recall a few things about 3He.
+
+==== he3 0:40
+
+It is an isotope of helium and it stays liquid down to the
+absolute zero temperature.
+It is a Fermi liquid, and it becomes superfluid due to Cooper
+pairing at about 1 mK.
+
+Cooper pairs in 3He have orbital momentum 1 and spin 1. Order parameter
+in the superfluid transition is a complex matrix 3x3 which shows
+relation between spin and orbital spaces of cooper pairs.
+
+This is a phase diagram of 3He. You can see two superfluid phases, A and
+B,  normal liquid at higher temperatures and solid phase at high
+pressures. We are working with the B phase at the zero temperature limit.
+
+In the B-phase equilibrium order parameter has this form:
+a gap, which depends on temperature and pressure, phase factor
+and a rotation matrix R
+
+The condensation energy is degenerate with respect to changes of
+phase and matrix R.
+
+If we consider oscillations of the order parameter, we find 18 different
+modes (because the order parameter has 18 components). Four of them are
+so-called phase modes, or Nambu-Goldstone bosons, gapless modes which
+correspond to the motion of the order parameter in this degenerate space.
+Other 14 modes are called amplitude modes, or Higgs bosons.
+
+Now I want to explain this classification again,
+on a simpler system.
+
+==== ferromagnet
+Let's consider a ferromagnet.
+There is also a phase transition with spontaneous breaking of
+rotation symmetry.
+Order parameter is a magnetization, a vector with 3 components.
+
+Since the system is symmetric with respect to rotations, the
+energy depends on the order parameter in this way:
+It has a minimum at some non-zero amplitude of magnetization,
+but it does not depend on the direction of it.
+
+If we look at oscillations of the magnetization, we find one amplitude
+mode, oscillation of the magnetization amplitude and two phase modes,
+rotations of magnetization. Only one is drawn here, but there is one
+more magnetization component and rotation in the perpendicular direction
+is also possible.
+
+Spectra of these three modes are drawn here.
+Higgs mode has energy gap, you can see that energy is needed to
+excite such oscillations, NG modes are gapless, no energy is
+needed for uniform rotation.
+
+These two modes are spin waves, and the slope is a spin wave velocity.
+
+In the presence of magnetic field the equilibrium magnetization
+is oriented along the field and spin wave modes are splitted.
+
+Two branches are called optical and acoustic magnons. In a simple NMR
+experiment we can see this uniform precession at Larmor frequency,
+which is proportional to the field.
+
+Now let's return back to 3He-B
+==== modes 6:13
+
+The order parameter in 3He-B has 18 components, and this means 18
+collective modes. Spectra are drawn here.
+
+The degenerate space is determined by the superfluid phase
+and rotation matrix R and has 4 dimensions, and this means four NG
+gapless modes. Other 14 modes are Higgs modes.
+
+It's convenient to write the matrix in terms
+of rotation axis n and rotation angle theta.
+In all experiments it's important to know
+the equilibrium distribution of n, so-called texture.
+
+Motion of phase is sound and motion of n and theta are spin waves.
+They have slightly different velocities.
+
+Here are Higgs modes. They have energy gaps of the order of Delta.
+They have been observed quite a long time ago, in experiments with dissipation
+of ultrasound. They are called pair breaking modes, imaginary squashing modes,
+real squashing modes.
+
+In our experiments we study 3He using NMR at frequency of about 1MHz. So
+we can see only spin waves in this region.
+
+At this low energy scale a coupe of additional effects should be taken
+into account.
+
+==== spin-waves modes 9:04
+First is a magnetic field. In the simple case where H is parallel to 
+n equilibrium position,
+motion of n corresponds to transverse spin waves, motion of transverse
+magnetization, and these two modes are very similar to that in ferromagnets.
+
+There is also a splitting into optical and acoustic branches and
+in NMR we can see a uniform precession at Larmor frequency.
+
+Motion of theta is low-energy longitudinal spin
+oscillations, which is unique for 3He-B.
+
+This mode is affected by small spin orbit interaction. Energy
+is written here, it depends only on theta at has a minimum
+at theta=104 degrees.
+
+OmegaB is a very important parameter, it is called Leggett frequency,
+it is of the order of 100kHz.
+
+This effect introduces an additional symmetry breaking
+on the low energy scale. Now the degenerate space of the order parameter
+does not include the theta angle. We have a Higgs mode instead
+of Nambu-Goldstone one. The gap is equal to OmegaB, which is much smaller then
+gaps of heavy Higgs modes.
+
+Similar type of a symmetry breaking at the low
+energy scale is discussed in particle physics. There it is called
+Little Higgs.
+Here we can build an analog of a vector Higgs field
+using vector N and angle T, and we will have all formulas
+similar to that in particle physics.
+
+And this symmetry breaking with one Higgs and 2 NG
+modes can be observed in usual NMR experiments.
+
+Now let's switch to our experiments, where we are working
+with this three modes.
+
+==== experiment 12:11
+This is our experimental setup, it is very simple: 
+a cylindrical quartz cell with 3He in a magnetic field
+which is directed along the cell axis.
+There are transverse NMR coils to excite and detect oscillations of the
+transverse magnetization,
+and a longitudinal coil, which produces a field minimum
+in the axial direction.
+
+Equilibrium distribution of the order parameter in this geometry
+forms so-called flare-out texture.
+n-vector is vertical in the center and is tilted near walls because
+of boundary conditions.
+
+We are working with optical magnons close to Larmor frequency.
+They can be treated as quantum particles in a potential formed by
+the texture and magnetic field.
+
+This flare-out texture and field of the longitudinal coil produce
+a harmonic energy trap for magnons. The potential in axial and radial
+direction is shown by these blue lines.
+Red lines show the ground state wave function in this trap.
+
+We can observe individual eigenstates in this potential trap, and if
+initial density of magnons is large enough they form a Bose condensate.
+The magnon condensate (or standing spin wave)
+is a coherent state which is very useful in experiments.
+
+Here is an example of the NMR signal of this state, it precesses at about 1Mhz and lasts
+for tens or even hundreds of seconds. The relaxation is exponential
+and it is determined by spin diffusion and also by energy dissipation
+in the NMR circuit.
+
+Magnon condensate can be used in many different experiments,
+here we study its interaction with other spin-wave modes.
+
+==== suhl 15:30
+
+The first important effect which we see is Suhl instability. It is a
+non-linear effect in usual NMR, where a uniform precession of
+magnetization  parametrically excites acoustic magnons, or in our case
+the longitudinal light Higgs mode.
+
+This can be shown as a decay of magnon with zero k vector
+into two quasiparticles with two times smaller frequency
+and opposite k-vectors. Momentum and energy conserve in
+this process.
+
+This instability exists only at high tipping angle of magnetization.
+starting from some threshold, which depends
+on the relaxation in the parametrically excited mode.
+At low amplitudes NMR precession is stable.
+
+We can observe this effect.
+This is an example of our signal, the relaxation is small below
+some threshold, but above it we have this instability.
+
+How we can identify this processes?
+===
+
+We can measure this threshold as a function of field, or magnon frequency.
+
+You can see, that this light Higgs channel of decay
+can exist only when frequency is larger then 2Omega_B. We can cross this value
+and see how the threshold changes.
+
+The decay to acoustic magnons can also depend on the frequency.
+The reason is that acoustic magnons are confined in our cell, and
+the spectrum is quantizes because of that. We are using our cell as a resonator
+and observe resonances at certain frequencies.
+
+We use simple  resonance condition, the wave phase difference
+across the cell should be pi multiplied by some integer.
+
+Using formulas for the spectrum one can find a period in NMR frequency,
+where we can expect this resonances. Here c is a spin wave velocity
+and R is the cell radius.
+
+This spin wave velocity is not a simple thing
+because it depends on the texture, on the orientation
+of the n vector. And it changes across the cell. We should
+use some averaged value for spin-wave velocity
+but it can be calculated.
+
+We did this measurements.
+
+==== suhl - experiment 20:35
+
+This is the result. Threshold amp vs freq at different pressures. Here
+we see a clear drop at 2Omega_B. It is drawn here as a function
+of pressure. Blue line is a combined result of other types of
+measurements.  Frequency range of our NMR spectrometer is limited and we
+can measure Leggett frequency only at high pressures where it is high. Our
+way to measure Leggett freq seems to be quite accurate, it does not
+depend on the texture, and the resolution here is very high.
+
+We can also see periodic peaks on the threshold amplitude,
+The period of these peaks as a function of pressure is quite close
+to the formula for resonances which I wrote before.
+
+That is all about Suhl instability. But we have one more
+way to excite acoustic magnons and see similar resonances in the cell.
+
+==== vort 22:50
+
+We have a possibility to rotate our cryostat. Rotation produces
+quantized vortices which go through the cell and through the
+magnon condensate.
+
+Vortices in He3-B at low temperatures have non-axisymmetric cores. 
+They are oriented by the texture and can oscillate in the region
+of magnon condensate, where magnetization and texture precess.
+
+The oscillations of vortices non-harmonic and they can produce
+acoustic magnons at frequencies omega, 2omega and so on.
+
+Resonances of acoustic magnons with frequency N omega can be
+calculated in the same way as for parametrically excited magnons
+with frequency omega/2. The period in NMR frequency is written here.
+
+Excitation of acoustic magnons increases the relaxation of the
+magnon condensate. We measured the relaxation rate as a function
+of frequency, and we found periodic peaks on it.
+
+Here is the example, and you can see this modulation because
+of two different sets of peaks with close periods.
+
+Here these periods are plotted as a function of pressure.
+lines are this formula with different N.
+
+Sometimes we can see peaks with two of four times
+larger periods compared with this formula. And at different pressures we can see
+different peaks.
+This is probably because different mutual disposition
+of vortex cores and wave nodes.
+Probably our distribution of vortices we can excite only some
+of possible resonances.
+
+But the agreement looks very good, there are no fitting
+parameters, only spin wave velocity, measured in other experiments
+and radius of the cell.
+

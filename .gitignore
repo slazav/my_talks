@@ -1,0 +1,6 @@
+*.aux
+*.dvi
+*.bak
+*.log
+*.eps
+full_*.pdf

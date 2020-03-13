@@ -1,0 +1,53 @@
+\documentclass[a4paper]{article}
+\usepackage{amssymb}
+\usepackage{euscript}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{epsfig}
+\usepackage{fullpage}
+
+\oddsidemargin -1cm
+\topmargin -1cm
+\textwidth 18cm
+\textheight 26cm
+\pagestyle{empty}
+
+\graphicspath{.}
+\newcommand{\image}[3]{
+\begin{figure}[#1]
+\begin{center}
+\includegraphics{full_#2.pdf}
+\caption{\small#3}
+\label{image:#2}
+\end{center}
+\end{figure}
+}
+
+\begin{document}
+\title{Homogeneously precessing domain in 3He-B: a tool for studying graphene}
+\author{V.~V.~Zavjalov\/\thanks{e-mail: vladislav.zavyalov@aalto.fi},  A. M. Savin, P. J. Hakonen}
+\maketitle
+
+Homogeneously precessing domain (HPD) can by observed in NMR experiments
+in superfluid~$^3$He-B. HPD is characterized by coherent precession of
+magnetization with large tilting angle stabilized by superfluid spin
+currents. This state is a good tool for studying properties of 3He-B. We
+have developed a 3He NMR setup using a dry cryostat and performed some
+preliminary measurements. At present, we are preparing an experiment for
+probing superfluid coherence across graphene membrane immersed in~$^3$He
+by means of the HPD. I will tell about this work and about preliminary
+measurements in a one-volume cell where we have found some new
+interesting features of the HPD.
+
+\image{h!}{abstr_image}{
+{\bf A.} Magnet system and cell for preliminary experiments with HPD.
+{\bf B.} Example of the measurement. HPD is created by continuous-wave
+NMR when constant magnetic field is slowly swept down. Signal from RF
+coils is recorded by oscilloscope and processed by sliding FFT. One can
+see side bands near the NMR frequency which are low-frequency
+oscillations of the HPD. We observe a few modes of such oscillations with
+frequencies proportional to square root of the shift between NMR
+frequency and Larmor frequency in the magnetic field. Also some unstable
+region can bee seen at large frequency shifts. }
+
+\end{document}

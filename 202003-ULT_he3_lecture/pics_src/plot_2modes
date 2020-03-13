@@ -1,0 +1,15 @@
+#!/usr/bin/gnuplot
+
+set nokey
+unset xtics
+unset ytics
+
+
+plot [0:3]\
+ x, sqrt(1 + x**2),\
+
+pause -1
+
+set terminal fig size 6,6
+set output "tmp6.fig"
+replot

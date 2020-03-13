@@ -1,0 +1,18 @@
+#!/usr/bin/gnuplot
+
+set nokey
+set log x
+set grid
+
+plot [:10] [:40]\
+ "he3_pmelt1.txt" using 1:2 with lines,\
+ "he3_pmelt2.txt" using 1:2 with lines,\
+ "he3_pvap.txt"   using 1:2 with lines,\
+ "he3_tc.txt" using ($2/1000):1 with lines,\
+ "he3_tab.txt" using ($2/1000):1 with lines,
+
+pause -1
+
+set terminal fig size 6,6
+set output "tmp1.fig"
+replot

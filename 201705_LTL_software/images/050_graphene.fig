@@ -1,0 +1,34 @@
+#FIG 3.2  Produced by xfig version 3.2.6-beta
+Landscape
+Center
+Metric
+A4      
+100.00
+Single
+-2
+1200 2
+0 32 #525050
+6 0 0 13365 9405
+2 1 0 1 7 7 50 -1 -1 0.000 0 0 7 0 0 2
+	 0 9405 13365 9405
+2 5 0 1 0 -1 500 -1 20 0.000 0 0 -1 0 0 5
+	0 other/blue_grad.jpg
+	 0 0 13365 0 13365 3132 0 3132 0 0
+-6
+2 1 0 1 9 11 50 -1 20 0.000 0 0 -1 0 0 2
+	 450 1440 8955 1440
+2 5 0 1 0 -1 50 -1 -1 0.000 0 0 -1 0 0 5
+	0 other/gr_ex.png
+	 7425 4050 12825 4050 12825 8521 7425 8521 7425 4050
+4 0 9 50 -1 4 28 0.0000 3 465 3510 900 495 Graphene database\001
+4 0 9 50 -1 4 28 0.0000 3 465 6240 945 1035 https://github.com/slazav/graphene\001
+4 0 0 50 -1 4 22 0.0000 3 360 8820 405 2295 Main idea: you can put a few numbers or text with a timestamp\001
+4 0 0 50 -1 4 22 0.0000 3 360 1350 405 4005 Features:\001
+4 0 0 50 -1 4 22 0.0000 3 360 8685 405 2715 into a database. Then you can extract data for any time range\001
+4 0 8 50 -1 4 20 0.0000 3 330 3135 405 6585 - command line interface\001
+4 0 8 50 -1 4 20 0.0000 3 330 6660 405 7005 - http interface for web-applications (Grafana viewer)\001
+4 0 8 50 -1 4 20 0.0000 3 330 6270 405 6165 - fast access to data, interpolation, downsampling\001
+4 0 8 50 -1 4 20 0.0000 3 330 4020 405 5715 - multi-column numerical values\001
+4 0 8 50 -1 4 20 0.0000 3 330 4515 405 5265 - nanosecond-precision timestamps\001
+4 0 8 50 -1 4 20 0.0000 3 330 4605 405 4860 - integer, floating point or text values\001
+4 0 8 50 -1 4 20 0.0000 3 330 2805 405 4410 - based on BerkleyDB\001

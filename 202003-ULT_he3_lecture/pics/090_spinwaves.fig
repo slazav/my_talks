@@ -1,0 +1,31 @@
+#FIG 3.2  Produced by xfig version 3.2.7a
+Landscape
+Center
+Metric
+A4
+100.00
+Single
+-2
+# Produced by gnuplot version 5.2
+1200 2
+# End plot #1
+6 1407 3240 1407 3240
+-6
+6 765 5355 15075 7290
+4 0 0 4 -1 4 20 0.0000 3 360 6510 8550 6210 (minimum  at $\\theta \\approx 104^\\circ$)\001
+4 0 0 4 -1 4 20 0.0000 3 360 3090 2205 5670 \\input{tex/FSO.tex}\001
+4 0 0 4 -1 4 20 0.0000 3 360 2760 765 6645 Gradient energy:\001
+4 0 0 4 -1 4 20 0.0000 3 360 11595 2205 7200 $\\displaystyle F_{\\nabla} = \\langle\\mbox{some long expression}\\rangle$\001
+-6
+2 1 0 1 7 7 50 -1 -1 0.000 0 0 7 0 0 2
+	 44 9404 13319 9404
+2 5 0 1 0 -1 500 -1 20 0.000 0 0 -1 0 0 5
+	0 img/blue_grad_lanc.jpg
+	 0 0 13454 0 13454 3131 0 3131 0 0
+4 1 9 50 -1 4 28 0.0000 3 360 4065 6794 629 Spin waves in $^3$He-B\001
+4 0 0 4 -1 4 20 0.0000 3 360 10515 765 1770 Rotation of the order parameter changes total spin of the system.\001
+4 0 0 4 -1 4 20 0.0000 3 360 13365 765 2205 We can write Hamiltonian eqations using spin $S$ and $R_{\\mu j}$ as coordinates.\001
+4 0 0 4 -1 4 20 0.0000 3 360 5235 765 3555 Energy of spin in magnetic field:\001
+4 0 0 4 -1 4 20 0.0000 3 360 7125 8550 4320 (minimum  at $\\gamma {\\bf S} = \\chi{\\bf H}$)\001
+4 0 0 4 -1 4 20 0.0000 3 360 2895 2160 4185 \\input{tex/FM.tex}\001
+4 0 0 4 -1 4 20 0.0000 3 360 8775 765 5040 Energy of weak spin-orbit interaction in Cooper pairs:\001

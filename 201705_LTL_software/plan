@@ -1,0 +1,203 @@
+    0. title
+
+I'm going to talk about a software system which I am trying to make
+for 3He experiments on DryDemag cryostat.
+This work is motivated by a similar system which is used in ROTA group,
+also for experiments with 3He.
+
+I am sure that this kind of system is very useful. It is important to
+have an easy access to all data, devices, programs from your scripts,
+then you can make fast automatic measurements.
+
+Also it is important to have good viewers for data, and see results
+during the measurements. For example, if you can plot one parameter as a
+function of another, or compare it with older measurements on the fly, then
+you can find that something is wrong immediately, but not after months.
+
+
+    1. Hardware
+
+First I briefly show what hardware do I have. This is my rack
+with all devices, front view and rear view.
+
+It contains a Linux computer and a network switch. The switch is
+configured to have two virtual networks, internal and external. Computer
+can see both network and all other devices are in the internal one and
+can not be seen from outside.
+
+There is also a gpib-to-ethernet converter for gpib devices.
+And USB devices are connected directly to the computer.
+
+Here you can see a lockin, a frame with four power supplies and
+a two-channel generator for NMR spectromenter.
+
+A generator and digital oscilloscope for thermometry (pulsed fork
+measurements). There are two multimeters and simple power supply.
+And that is all.
+
+Now I will show how I work with all these devices...
+
+    2. Device library
+
+The central part of this system is a so-called Device library.
+You can find code and documentation here.
+
+It is written in TCL language. It is some old and good scripting language
+like python. I've chosen it because it is easy to make graphical
+interfaces; because it is used in ROTA group and I can use some libraries
+from there. And because this language is good for making interacting
+programs. If I have a complicated graphical interface for some
+measurement with some buttons and numbers, I can always write a short
+script which reads and changes these num,bers and presses these buttons
+and run this measurement continously.
+
+Main idea of the Device library is that programs do not care about how
+devices are connected. Program can just open a device, send a command and
+get an answer.
+
+Here in tcl I load the library; open a device "lockin0"; send some command
+and get an answer.
+
+Library also provides severel useful features:
+- error handling: errors are transferred to the program and can be processed
+- IO locks mean that many programs can work with one device without collisions
+- User locks mean that a single program can grab a device and no other programs can use it
+- timeouts mean that if something is stucked you will have an error after a timeout
+- you can tell the library to save the conversation with a device to a file
+
+How the library knows what is lockin0? There is a
+configuration file on the computer...
+
+    3. Device library - configuration
+
+
+There are device names used by the library.
+Drivers, which know about different types of connections
+And some parameters for these drivers.
+
+lockin0 is connected using a gpib-to-ehernet converter
+Prologix, and this driver knows how to work with it.
+It wants as a parameter a host name of the converter
+and gpib address of the device.
+
+There are a few devices which are connected directly
+to network and I have this driver, and the parameter is only a
+hostname of the device. I have some other drivers for all my devices
+which are connected in a different ways.
+
+It is good that you can connect a dvevice in a different way,
+change its address, write better driver, and there is no
+need to modify your programs.
+
+There is one very special and important driver, spp. It communicates not
+with real devices, but with programs, using some simple protocol based on
+unix pipes. You can write a program which makes some complicated
+measurements, use other devices, but the program itself can be treated as
+a device.
+
+
+    4. Using programs as devices
+
+As a first simple example I have a program device which does nothing but
+transferring commands to some other device.
+
+Here you can see how I use it, and how the protocol works. I just
+run a command "device -d lockin0", then I have OK if the device is
+opened correctly, then I can send commands to the lockin.
+
+Here I typed a strange command, and lockin didn't answer, and I got
+a timeout error. And here you can see that this device lockin0 is 
+not so simple! It uses ssh to go to my experimental computer
+and run a device command there to access a real device.
+And I just do not care at which computer I have this lock-in.
+
+Here you can see a configuration file which I have on my computer.
+I have no devices connected to it but I can access everything using
+this spp driver and the device program.
+
+Here you can see other programs. pico_rec is a self-made
+program for working with my oscilloscope. It can record and
+process signals and I can get averaged noise spectra or
+parameters of fork ringing signal, or use this oscilloscope as lock-in.
+
+sweeper is a device which takes a power supply device as a parameter
+and can make smooth sweeps of current.
+
+And graphene program is my database.
+
+
+    5. Graphene database
+
+As usual, code and documentation can be found on github.
+
+The main idea is that you can put a few numbers or text string into a
+database with a timestamp. And then have fast access to all data.
+
+This database is based on BerkleyDB, which is fast, simple and relyable.
+It supports ...
+
+It also have an http interface which returns JSON data for
+web-applications, for example for Grafana viewer which is a standard tool
+for this kind of databases (I will show it later).
+
+Another library which I want to present is a so-called DeviceRole
+library.
+
+
+    6. DeviceRole library
+
+It can be found here.
+
+It is a second level of abstraction.
+The main idea is that program use a device in some simple role
+without knowladge about its model and command set.
+
+Program can open some device as a "voltage source" and use "set voltage"
+or "get voltage" methods. And the library knows which device can be
+opened like this and how to use it.
+
+Of course this library is not universal, all devices have different
+features, but in many cases you want some simple operations.
+Then this library can be useful.
+And a single device can have many roles.
+
+Here I listed roles and devices which I have.
+
+power_supply is a role used in current sweepers. It supports overvoltage
+protection handling.
+
+voltage_supply is a simple DC voltage source with only set_voltage and
+get_voltage commands. I use it for setting bias voltages.
+
+Gauge is a device which can do any measurements and return any values.
+
+Here I have an example:
+I ge to tcl shell,
+I load the library,
+I open lockin0 as a voltage_source
+library asks the device about its model and returns a driver for it
+
+Here you can also see a channel setting. It is some additional
+information for the driver. voltage_source driver for lockin sr844 knows,
+that lock-in has two auxilary outputs. If channel is two it uses
+the second output.
+
+    7. Sweeper device
+
+Now I will show some examples, what can I do with all these libraries. In
+the NMR experiment I need an accurate control of magnetic field. I have a
+coil system with many coils and I have many power supplies.
+
+I wrote a program which can sweep currents and do some measurements
+during the sweeps. gets these power supply devices as arguments and
+it can sweep current up and down and make some measurements during
+sweeps. It also detects if overvoltage protection is triggered. It also
+records all data and all events into a database.
+
+
+5. GrapheneViewer, GrapheneMonitor
+
+5. pico_rec
+
+
+7. sweeper

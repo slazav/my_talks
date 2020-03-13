@@ -1,0 +1,10 @@
+*.aux
+*.dvi
+*.bak
+*.log
+*.snm
+*.toc
+*.nav
+*.out
+*.pdf
+aero.eps

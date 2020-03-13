@@ -1,0 +1,20 @@
+#!/usr/bin/gnuplot
+
+set nokey
+
+set isosamples 50
+set view 30, 30
+unset border
+unset xtics
+unset ytics
+unset ztics
+set hidden3d
+
+splot [-1:1] [-1:1] [:0.3]\
+ (x**2+y**2)**2 - (x**2+y**2) lc 3
+
+pause -1
+
+set terminal fig size 6,6
+set output "tmp2.fig"
+replot

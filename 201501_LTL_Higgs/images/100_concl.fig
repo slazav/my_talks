@@ -1,0 +1,16 @@
+#FIG 3.2  Produced by xfig version 3.2.5b
+Landscape
+Center
+Metric
+A4      
+100.00
+Single
+-2
+1200 2
+2 1 0 1 7 7 50 -1 -1 0.000 0 0 7 0 0 2
+	 0 9405 13365 9405
+2 5 0 1 0 -1 500 -1 20 0.000 0 0 -1 0 0 5
+	0 other/blue_grad.jpg
+	 0 0 13365 0 13365 3132 0 3132 0 0
+4 1 9 50 -1 4 28 0.0000 3 465 2190 6750 630 Conclusions\001
+4 0 0 52 -1 4 24 0.0000 3 435 3705 1350 1890 \\input{texinc/concl.tex}\001

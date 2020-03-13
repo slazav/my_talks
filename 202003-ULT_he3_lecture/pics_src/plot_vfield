@@ -1,0 +1,32 @@
+#!/usr/bin/gnuplot
+
+set nokey
+set terminal x11
+
+unset xtics
+unset ytics
+
+xf(phi) = 0.4*cos(phi/180.0*pi+pi/2)
+yf(phi) = 0.4*sin(phi/180.0*pi+pi/2)
+
+
+plot [-0.5:19.5] [-0.5:9.5] 'vect_rand1.txt' \
+    using ($1-xf($3)):($2-yf($3)):(2*xf($3)):(2*yf($3)) \
+    with vectors head size 0.1,20,60 filled lc 1
+
+pause -1
+
+set terminal fig size 6,3
+set output "tmp3.fig"
+replot
+set terminal x11
+
+plot [-0.5:19.5] [-0.5:9.5] 'vect_rand2.txt' \
+    using ($1-xf($3)):($2-yf($3)):(2*xf($3)):(2*yf($3)) \
+    with vectors head size 0.1,20,60 filled lc 1
+
+pause -1
+
+set terminal fig size 6,3
+set output "tmp4.fig"
+replot
