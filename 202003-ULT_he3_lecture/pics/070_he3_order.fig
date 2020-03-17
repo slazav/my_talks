@@ -62,8 +62,6 @@ Single
 4 0 0 4 -1 4 20 0.0000 3 360 11025 900 6660 $A_{\\mu j} = \\Delta_0\\,{\\bf \\hat d}_{\\mu}({\\bf\\hat m}_j+i{\\bf\\hat n}_j)$\001
 4 0 0 4 -1 4 20 0.0000 3 360 8520 918 7245 $\\bf\\hat m$ and $\\bf\\hat n$ - orthogonal unit vectors\001
 4 0 0 4 -1 4 20 0.0000 3 360 11220 6786 7245 $R_{\\mu j}$ - rotation matrix with axis~$\\bf\\hat n$ and angle $\\theta$\001
-4 0 0 4 -1 4 20 0.0000 3 360 7020 855 4365 Order parameter: $A_{\\mu j}$, a 3x3 matrix.\001
-4 0 1 4 -1 4 20 0.0000 3 360 3735 7576 4438 18 degrees of freedom!\001
 4 0 4 4 -1 4 20 0.0000 3 315 1830 2244 9124 $\\bf\\hat m$\001
 4 0 4 4 -1 4 20 0.0000 3 315 1740 2509 8595 $\\bf\\hat n$\001
 4 0 4 4 -1 4 20 0.0000 3 360 6705 2131 8001 ${\\bf\\hat l} = {\\bf\\hat m} \\times {\\bf\\hat n}$\001
@@ -72,3 +70,5 @@ Single
 4 0 1 4 -1 4 20 0.0000 3 285 3135 8910 9045 4 Goldstone modes\001
 4 0 1 4 -1 4 20 0.0000 3 285 3135 3060 9008 5 Goldstone modes\001
 4 0 9 4 -1 4 20 0.0000 3 360 5280 855 1755  $^4$He (and superconductors): \001
+4 0 0 4 -1 4 20 0.0000 3 360 8460 855 4365 Order parameter: $A_{\\mu j}$, a 3x3 complex matrix.\001
+4 0 1 4 -1 4 20 0.0000 3 360 3735 8235 4438 18 degrees of freedom!\001

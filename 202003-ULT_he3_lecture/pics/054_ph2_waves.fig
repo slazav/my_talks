@@ -102,13 +102,6 @@ Single
 	 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
 	 0.000 0.000
 -6
-6 855 3600 9225 6615
-4 0 0 50 -1 4 20 0.0000 3 360 6255 855 3915 Wave length $L$, wave vector $k=1/L$\001
-4 0 0 50 -1 4 20 0.0000 3 360 7680 855 4320 $\\omega = k\\,c$ where $c$ is speed of the wave\001
-4 0 0 50 -1 4 20 0.0000 3 360 6525 855 5655 $\\omega = \\sqrt{\\omega_0^2 + (c\\,k)^2}$\001
-4 0 0 50 -1 4 20 0.0000 3 360 8355 855 5220 For Higgs mode minimum frequency is $\\omega_0$\001
-4 0 0 50 -1 4 20 0.0000 3 360 7485 855 6525 Relativstic spectrum with non-zero rest mass.\001
--6
 2 5 0 1 0 -1 500 -1 20 0.000 0 0 -1 0 0 5
 	0 img/blue_grad_lanc.jpg
 	 0 0 13454 0 13454 3131 0 3131 0 0
@@ -163,3 +156,8 @@ Single
 4 2 1 40 -1 4 20 0.0000 3 360 1950 11880 4455 Higgs mode\001
 4 2 0 50 -1 4 20 0.0000 3 360 1590 9180 4005 $\\omega$\001
 4 2 0 50 -1 4 20 0.0000 3 360 1995 9180 6345 $\\omega_0$\001
+4 0 0 50 -1 4 20 0.0000 3 360 7680 855 4320 $\\omega = k\\,c$ where $c$ is speed of the wave\001
+4 0 0 50 -1 4 20 0.0000 3 360 6525 855 5655 $\\omega = \\sqrt{\\omega_0^2 + (c\\,k)^2}$\001
+4 0 0 50 -1 4 20 0.0000 3 360 8355 855 5220 For Higgs mode minimum frequency is $\\omega_0$\001
+4 0 0 50 -1 4 20 0.0000 3 360 7485 855 6525 Relativstic spectrum with non-zero rest mass.\001
+4 0 0 50 -1 4 20 0.0000 3 360 6660 855 3915 Wave length $L$, wave vector $k=2\\pi/L$\001

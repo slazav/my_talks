@@ -170,15 +170,15 @@ Single
 4 0 0 40 -1 4 20 0.0000 3 360 9240 1035 1980 Phase transition: sudden jump of a system to a new state\001
 4 0 0 40 -1 4 20 0.0000 3 360 7740 1028 3690 A system state can be represented by a point in\001
 4 0 0 40 -1 4 20 0.0000 3 360 4485 1012 6075 First order phase transition:\001
-4 0 0 40 -1 4 20 0.0000 3 360 9255 1170 6930 - Latent heat of the transiton, singularity in heat capacity\001
 4 0 0 50 -1 4 20 0.0000 3 360 3075 10093 5687 continuous change\001
 4 0 0 40 -1 4 20 0.0000 3 360 6240 1035 4095 a multi-dimensional coordinate space.\001
 4 0 0 40 -1 4 20 0.0000 3 360 6720 1170 6525 - All propertis of the system have a jump.\001
 4 0 0 40 -1 4 20 0.0000 3 360 8670 1028 5265 it continuously changes following external conditions.\001
 4 0 0 40 -1 4 20 0.0000 3 360 8595 1035 2385 during continuous change of some external condition\001
 4 1 0 50 -1 4 20 1.5708 3 360 2655 9720 2120 potential energy\001
-4 0 0 40 -1 4 20 0.0000 3 360 8040 1485 7290 (extra kynetic energy has to be removed or added\001
-4 0 0 40 -1 4 20 0.0000 3 360 4170 1485 7695 to thermalize the system).\001
-4 0 0 40 -1 4 20 0.0000 3 360 8625 1170 8100 - Hysteresis: backward transition at a different point.\001
 4 0 0 40 -1 4 20 0.0000 3 360 6705 1035 2790 (temperature, pressure, magnetic field...).\001
 4 0 0 40 -1 4 20 0.0000 3 360 6765 1028 4860 Potential energy depends on coordinates,\001
+4 0 0 40 -1 4 20 0.0000 3 360 8625 1170 6930 - Hysteresis: backward transition at a different point.\001
+4 0 0 40 -1 4 20 0.0000 3 360 9255 1170 7335 - Latent heat of the transiton, singularity in heat capacity\001
+4 0 0 40 -1 4 20 0.0000 3 360 8040 1485 7695 (extra kynetic energy has to be removed or added\001
+4 0 0 40 -1 4 20 0.0000 3 360 4170 1485 8100 to thermalize the system).\001
