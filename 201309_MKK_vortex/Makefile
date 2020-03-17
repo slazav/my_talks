@@ -1,27 +1,17 @@
-all:  img pres.pdf
+PICS := \
+  000title 010he3b 020nmr 030pulse\
+  040rel 050zrel 060phdep\
+  070peaks 071peaks2p 072peaks_temp\
+  100concl 105black
 
-TEX=hdep pdep core_en core_m core_rel minigap concl
+TEXTS := pres
 
-img:
-	make -C images
+include ../Makefile.inc
 
-%.pdf: %.ps
-	ps2pdf $<
-
-%.ps: %.dvi
-	dvips -T 298mm,210mm -t landscape $<
-%.dvi: %.tex
-	latex $<
-
-pres.dvi: pres.tex images/st.txt ${patsubst %,texinc/%.tex,$(TEX)}
-	latex $<
-clean:
-	make -C images clean
-	rm -f *.aux *.log *.nav *.out *.snm *.toc *.dvi *.eps
-
-distclean: clean
-	rm -f *.pdf
-
-spell:
-	ispell -d russian-lebedev pres.tex
-
+pics/050zrel.fig:  tex/core_m.tex
+pics/050zrel.fig:  tex/core_rel.tex
+pics/050zrel.fig:  tex/core_en.tex
+pics/060phdep.fig: tex/hdep.tex
+pics/060phdep.fig: tex/pdep.tex
+pics/070peaks.fig: tex/minigap.tex} \001
+pics/100concl.fig: tex/concl.tex

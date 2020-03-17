@@ -1,26 +1,19 @@
-all:  img pres.pdf
+PICS := \
+  000_title\
+  010_he3\
+  015_ferro\
+  030_modes\
+  040_spinwaves\
+  050_exp\
+  070_suhl\
+  071_suhl\
+  072_suhl\
+  080_vort\
+  100_concl
 
-TEX=periods concl
+TEXTS := pres
 
-img:
-	make -C images
+include ../Makefile.inc
 
-%.pdf: %.ps
-	ps2pdf $<
-
-%.ps: %.dvi
-	dvips -T 298mm,210mm -t landscape $<
-%.dvi: %.tex
-	latex $<
-
-pres.dvi: pres.tex images/st.txt ${patsubst %,images/texinc/%.tex,$(TEX)}
-	latex $<
-clean:
-	rm -f *.aux *.log *.nav *.out *.snm *.toc *.dvi *.eps
-
-distclean: clean
-	rm -f *.pdf
-
-spell:
-	ispell -d russian-lebedev pres.tex
-
+pics/100_concl.fig: tex/concl.tex
+pics/040_spinwaves.fig: tex/fdip.tex

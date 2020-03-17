@@ -512,4 +512,4 @@ Single
 	 0 0 13365 0 13365 3132 0 3132 0 0
 4 1 9 50 -1 4 28 0.0000 3 465 7680 6750 630 Relaxation peaks in frequency dependence\001
 4 0 0 52 -1 4 20 0.0000 3 330 4020 1189 1452 Bound states in the vortex core:\001
-4 0 0 52 -1 4 26 0.0000 3 435 4215 1752 8531 \\input{texinc/minigap.tex} \001
+4 0 0 52 -1 4 26 0.0000 3 435 4215 1752 8531 \\input{tex/minigap.tex} \001

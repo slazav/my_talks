@@ -1,25 +1,6 @@
-all:  img pres.pdf
+PICS := 000title 010phd 020text 030nmr 040levels 050cwnmr\
+        060pulse 070rel 080zrel 090relfre 100concl 105black 110sp_hmin
 
-img:
-	make -C images
+TEXTS := pres
 
-%.pdf: %.ps
-	ps2pdf $<
-
-%.ps: %.dvi
-	dvips -T 298mm,210mm  -t landscape $<
-%.dvi: %.tex
-	latex $<
-
-pres.dvi: pres.tex images/st.txt
-	latex $<
-clean:
-	make -C images clean
-	rm -f *.aux *.log *.nav *.out *.snm *.toc *.dvi *.eps
-
-distclean: clean
-	rm -f *.pdf
-
-spell:
-	ispell -d russian-lebedev pres.tex
-
+include ../Makefile.inc

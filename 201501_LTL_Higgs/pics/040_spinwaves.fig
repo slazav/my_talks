@@ -44,7 +44,7 @@ Single
 4 0 0 50 -1 4 30 0.0000 3 495 9015 675 1530 Spin waves~--- motion of $R({\\bf\\hat n}, \\theta)$\001
 4 0 0 50 -1 4 26 0.0000 3 435 8685 810 3465 motion of $\\theta\\rightarrow$ longitudinal spin waves.\001
 4 0 0 50 -1 4 26 0.0000 3 435 12975 810 2925 motion of $\\bf\\hat n \\rightarrow$ transverse spin waves, similar to ferromagnets\001
-4 0 0 50 -1 4 26 0.0000 3 435 3420 855 5175 \\input{texinc/fdip.tex}\001
+4 0 0 50 -1 4 26 0.0000 3 435 3420 855 5175 \\input{tex/fdip.tex}\001
 4 0 0 50 -1 4 26 0.0000 3 435 6375 675 2340 1. magnetic field $\\bf H \\parallel \\hat n$\001
 4 0 0 50 -1 4 26 0.0000 3 435 3840 675 4410 2. spin-orbit interaction:\001
 4 0 0 50 -1 4 26 0.0000 3 435 2835 3690 7380 light Higgs mode.\001
